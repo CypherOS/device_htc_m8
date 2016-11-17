@@ -14,17 +14,21 @@
 # limitations under the License.
 #
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 # Inherit from m8 device
 $(call inherit-product, device/htc/m8/device.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common AOSCP stuff.
+$(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/aoscp/configs/nfc_enhanced.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cm_m8
+PRODUCT_NAME := aoscp_m8
 PRODUCT_DEVICE := m8
 PRODUCT_BRAND := htc
 PRODUCT_MANUFACTURER := htc
