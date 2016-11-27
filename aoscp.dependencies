@@ -4,5 +4,29 @@
     "target_path": "device/htc/m8-common",
 	"remote":      "github",
 	"branch":      "cm-14.1"
+  },
+  {
+    "repository":  "Team-M8/android_device_htc_msm8974-common",
+    "target_path": "device/htc/msm8974-common",
+	"remote":      "github",
+	"branch":      "cm-14.1"
+  },
+  {
+    "repository":  "Team-M8/android_kernel_htc_msm8974",
+    "target_path": "kernel/htc/msm8974",
+	"remote":      "github",
+	"branch":      "cm-14.1"
+  },
+  {
+    "repository":  "Team-M8/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+	"remote":      "github",
+	"branch":      "cm-14.1"
+  },
+  {
+    "repository":  "proprietary_vendor_htc",
+    "target_path": "vendor/htc",
+	"remote":      "tm",
+	"branch":      "cm-14.1"
   }
 ]
