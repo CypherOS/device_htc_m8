@@ -25,8 +25,8 @@ $(call inherit-product, device/htc/m8/device.mk)
 $(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aoscp_m8
-PRODUCT_DEVICE := m8
-PRODUCT_BRAND := htc
-PRODUCT_MANUFACTURER := htc
+PRODUCT_NAME := AOSCP_M8
+PRODUCT_DEVICE := M8
+PRODUCT_BRAND := HTC
+PRODUCT_MANUFACTURER := HTC
 PRODUCT_MODEL := One M8
