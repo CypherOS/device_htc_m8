@@ -5,4 +5,4 @@ persist.sys.usb.config=mtp,adb
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
 ro.opa.eligible_device=true
-ro.device.model=HTC M8
+ro.product.model=HTC M8
